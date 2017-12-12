@@ -1,5 +1,7 @@
 # javascript-gadget
 
+JQuery is required.
+
 ## spoiler.js
 
 A quick simple clean spoiler toggler implementation.
