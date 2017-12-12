@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			.inner {
+				margin:6rem;
+			}
+			.sp-box {
+				border:solid;
+				display:none;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="spoiler.js"></script>
+		<script src="escapeObject.js"></script>
+	</head>
+	<body>
+		<div class="inner">
+			<h1>Spoiler</h1>
+			<p>
+				Click the button to show spoiler content.
+				<button id="sp1" onclick="toggleSpoiler(this.id)">SPOILER!!</button>
+				<div id="sp1-content" class="sp-box">
+					This is SPOLIER!!
+				</div>
+			</p>
+			<h1>Escape Object</h1>
+			<div class="ep">
+				These words will escape.
+				<p>So as these words inside a 'p' tag.</p>
+				<button>Escape button</button>
+				<div class="so">
+					These words are stable.
+					<button>Stable button</button>
+				</div>
+				<span class="eo">We escape together.</span>
+			</div>
+		</div>
+	</body>
+</html>
