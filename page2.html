@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<title>Index</title>
+	<title data-title="Page2">Page-2</title>
 	<head>
 		<!--bootstrap core CSS-->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.css" />
@@ -8,10 +8,6 @@
 		<style>
 			.inner {
 				margin:6rem;
-			}
-			.sp-box {
-				border:solid;
-				display:none;
 			}
 		</style>
 		<!--bootstrap core js-->
@@ -21,8 +17,6 @@
 		<script src="https://v4-alpha.getbootstrap.com/dist/js/bootstrap.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<!--custom js-->
-		<script src="spoiler.js"></script>
-		<script src="escapeObject.js"></script>
 		<script src="easyNavbar.js"></script>
 	</head>
 	<body>
@@ -30,25 +24,7 @@
 		<div id="easyNavbar" data-html="demoNavbar.html"></div>
 		<!--content-->
 		<div class="inner">
-			<h1>Spoiler</h1>
-			<p>
-				Click the button to show spoiler content.
-				<button id="sp1" onclick="toggleSpoiler(this.id)">SPOILER!!</button>
-				<div id="sp1-content" class="sp-box">
-					This is SPOLIER!!
-				</div>
-			</p>
-			<h1>Escape Object</h1>
-			<div class="ep">
-				These words will escape.
-				<p>So as these words inside a 'p' tag.</p>
-				<button>Escape button</button>
-				<div class="so">
-					These words are stable.
-					<button>Stable button</button>
-				</div>
-				<span class="eo">We escape together.</span>
-			</div>
+			<p>Demo page for navbar.</p>
 		</div>
 	</body>
 </html>
